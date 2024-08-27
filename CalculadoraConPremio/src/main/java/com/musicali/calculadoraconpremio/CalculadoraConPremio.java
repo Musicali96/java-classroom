@@ -22,7 +22,7 @@ public class CalculadoraConPremio {
         int op2 = s.nextInt();
 
         int res = op1 + op2;
-        System.out.println("res: " + res);
+        System.out.println("Resultado: " + res);
 
         if (res % 10 == 5 && res != 15) {
             System.out.println("Va con premio.");
